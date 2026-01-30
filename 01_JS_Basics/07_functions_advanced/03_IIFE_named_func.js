@@ -2,8 +2,8 @@
 // (function() {
 //     // code to be executed immediately
 //     console.log("Hello from IIFE. will get executed only once");
-// })();
-
+// })(); // calling the function immediately
+// Called anonymous IIFE as it has no name
 // ---------------------------------------------
 function sayHello() {   
     console.log("Hello from sayHello function");
