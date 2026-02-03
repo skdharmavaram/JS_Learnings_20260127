@@ -21,3 +21,15 @@ processUserInput(greet);
 
 // ----------------------------------
 // returned from other functions
+
+function createTimer() { 
+    let count = 0;
+    return function() {
+        count++;
+        console.log(`Called ${count} times`);
+    }
+} 
+
+const timer = createTimer(); 
+timer(); // Called 1 times 
+timer(); // Called 2 times 
