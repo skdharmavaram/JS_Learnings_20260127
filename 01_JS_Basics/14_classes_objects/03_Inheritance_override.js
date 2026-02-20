@@ -45,7 +45,7 @@ fish.speak(); // Output: Animal speaks
 const animal = new Animal();
 animal.speak(); // Output: Animal speaks
 // The speak method of the Animal class is called, not the Dog class, because the object is of type Animal, not Dog. This is an example of polymorphism, where the same method can have different implementations based on the type of object that is calling it.
-// This is also an example of method overriding, where the Dog class has overridden the speak method of the Animal class to provide a different implementation.
+// This is also an example of method overriding, where the Dog class has overridden the speak method of the Animal class to provide a different implementation. It is a runtime polymorphism because the method that gets called is determined at runtime based on the type of object that is calling it. In this case, since the object is of type Animal, the speak method of the Animal class is called, not the Dog class.
 // Method overloading is not supported in JavaScript, but we can achieve similar functionality by using default parameters or by checking the number of arguments passed to the function. Method overriding, on the other hand, is supported in JavaScript and allows a child class to provide a specific implementation of a method that is already defined in its parent class.
 
 //Similar functionality like metthod overloading
