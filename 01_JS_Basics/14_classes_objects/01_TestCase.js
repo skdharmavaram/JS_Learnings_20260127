@@ -9,8 +9,10 @@ class Testcase{
     }
 }
 
+
 const loginTest = new Testcase('Login Test', 'Passed');
 loginTest.printResult(); // Output: Testcase: Login Test, status: Passed
 
 const signupTest = new Testcase('Signup Test', 'Failed');
+
 signupTest.printResult(); // Output: Testcase: Signup Test, status: Failed

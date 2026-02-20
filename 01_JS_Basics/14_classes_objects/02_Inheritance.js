@@ -30,6 +30,7 @@ class LoginTest2 extends BaseTest{
     }
 }
 
+
 const loginTest2 = new LoginTest2('Login Test', 'Passed');
 loginTest2.start(); // Output: Starting test: Login Test
 loginTest2.printResult(); // Output: Testcase: Login Test, status: Passed

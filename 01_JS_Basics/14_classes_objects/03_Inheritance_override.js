@@ -55,7 +55,6 @@ function add(a, b, c = 0){
 console.log(add(1, 2)); // Output: 3
 console.log(add(1, 2, 3)); // Output: 6
 
-
 //Challenge:
 //Create a Vehicle class with a method move() that logs "Vehicle is moving".
 //Create a Airplane class that extends Vehicle and overrides the move() method to log "Airplane is flying".
